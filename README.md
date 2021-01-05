@@ -1,63 +1,65 @@
-# egg-view-handlebars
-
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
-[![npm download][download-image]][download-url]
-
-[npm-image]: https://img.shields.io/npm/v/egg-view-handlebars.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-view-handlebars
-[travis-image]: https://img.shields.io/travis/eggjs/egg-view-handlebars.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-view-handlebars
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-view-handlebars.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-view-handlebars?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-view-handlebars.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-view-handlebars
-[snyk-image]: https://snyk.io/test/npm/egg-view-handlebars/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-view-handlebars
-[download-image]: https://img.shields.io/npm/dm/egg-view-handlebars.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-view-handlebars
-
 <!--
-Description here.
+ * @Author: 姜彦汐
+ * @Date: 2020-12-04 13:26:18
+ * @LastEditors: 姜彦汐
+ * @LastEditTime: 2021-01-05 11:01:20
+ * @Description: 
+ * @Contact: jiangyanxi@live.com
+ * @FilePath: /egg-view-handlebars/README.md
 -->
-
-## Install
+# egg-view-handlebars
+## 安装
 
 ```bash
 $ npm i egg-view-handlebars --save
+# or
+$ yarn add egg-view-handlebars
 ```
 
-## Usage
+## 依赖说明
+
+### 依赖的 egg 版本
+
+egg-view-handlebars 版本 | egg 2.x | egg 1.x
+--- | --- | ---
+1.x | 😁 | ❌
+
+### 依赖的插件
+
+## 使用
 
 ```js
 // {app_root}/config/plugin.js
-exports.viewHandlebars = {
+exports.handlebars = {
   enable: true,
   package: 'egg-view-handlebars',
 };
 ```
 
-## Configuration
+## 配置
+
+> 参考 [https://handlebarsjs.com/zh/api-reference/compilation.html#handlebars-compile-template-options](https://handlebarsjs.com/zh/api-reference/compilation.html#handlebars-compile-template-options)
 
 ```js
 // {app_root}/config/config.default.js
-exports.viewHandlebars = {
+config.handlebars = {
+
 };
+
+config.view = {
+    defaultViewEngine: 'handlebars',
+    defaultExtension: '.html',
+    mapping: {
+      '.html': 'handlebars',
+    },
+  }
 ```
 
-see [config/config.default.js](config/config.default.js) for more detail.
+## 示例
 
-## Example
+```js
 
-<!-- example here -->
-
-## Questions & Suggestions
-
-Please open an issue [here](https://github.com/eggjs/egg/issues).
-
+```
 ## License
 
 [MIT](LICENSE)
