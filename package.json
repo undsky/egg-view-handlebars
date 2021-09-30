@@ -1,6 +1,6 @@
 {
   "name": "egg-view-handlebars",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "description": "",
   "eggPlugin": {
     "name": "handlebars"
@@ -14,18 +14,18 @@
     "handlebars"
   ],
   "dependencies": {
-    "bytenode": "^1.2.2",
-    "handlebars": "^4.7.6"
+    "bytenode": "^1.3.3",
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
+    "autod": "^3.1.1",
     "autod-egg": "^1.1.0",
-    "egg": "^2.16.0",
-    "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "egg": "^2.30.0",
+    "egg-bin": "^4.16.4",
+    "egg-ci": "^1.19.0",
+    "egg-mock": "^3.26.0",
+    "eslint": "^7.32.0",
+    "eslint-config-egg": "^9.0.0"
   },
   "engines": {
     "node": ">=8.0.0"
