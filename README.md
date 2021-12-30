@@ -118,6 +118,8 @@ config.view = {
 {{{script 'js url' ts="false" }}}
 ```
 
+## [点击查看更多开源项目 https://undsky.com/](https://undsky.com/)
+
 ## License
 
 [MIT](LICENSE)
