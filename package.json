@@ -1,6 +1,6 @@
 {
-  "name": "egg-view-handlebars",
-  "version": "3.0.0",
+  "name": "egg-view-handlebars2",
+  "version": "1.0.0",
   "description": "",
   "eggPlugin": {
     "name": "handlebars"
@@ -50,12 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-view-handlebars.git"
+    "url": "git+https://github.com/undsky/egg-view-handlebars.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/undsky/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-view-handlebars#readme",
-  "author": "",
+  "homepage": "https://github.com/undsky/egg-view-handlebars#readme",
+  "author": "姜彦汐 <undsky@163.com>",
   "license": "MIT"
 }
