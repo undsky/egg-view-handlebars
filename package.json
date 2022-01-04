@@ -1,7 +1,7 @@
 {
   "name": "egg-view-handlebars2",
   "version": "1.0.0",
-  "description": "",
+  "description": "egg view plugin for handlebars with extend",
   "eggPlugin": {
     "name": "handlebars"
   },
@@ -52,7 +52,7 @@
     "url": "git+https://github.com/undsky/egg-view-handlebars.git"
   },
   "bugs": {
-    "url": "https://github.com/undsky/egg/issues"
+    "url": "https://github.com/undsky/egg-view-handlebars/issues"
   },
   "homepage": "https://github.com/undsky/egg-view-handlebars#readme",
   "author": "姜彦汐 https://www.undsky.com",
