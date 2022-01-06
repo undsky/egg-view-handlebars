@@ -34,8 +34,6 @@ exports.handlebars = {
 
 ## 配置
 
-> 可根据自身需要修改以下默认配置
-
 ```js
 // {app_root}/config/config.default.js
 
@@ -86,7 +84,7 @@ config.view = {
 
 ## 示例
 
-### 默认表达式，参考 [https://handlebarsjs.com/zh/guide/expressions.html](https://handlebarsjs.com/zh/guide/expressions.html)
+### 默认表达式，更多参考 [https://handlebarsjs.com/zh/guide/expressions.html](https://handlebarsjs.com/zh/guide/expressions.html)
 
 ``` html 
 {{title}}
@@ -118,7 +116,7 @@ config.view = {
 {{{script 'js url' ts="false" }}}
 ```
 
-## [点击查看更多开源项目 https://undsky.com/](https://undsky.com/)
+## [查看更多项目](https://www.undsky.com)
 
 ## License
 
