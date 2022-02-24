@@ -1,6 +1,6 @@
 # egg-view-handlebars
 
-> egg view plugin for handlebars with extend
+> Egg view plugin for handlebars with extend
 
 ## 安装
 
