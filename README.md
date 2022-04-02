@@ -28,7 +28,7 @@ egg 2.x | egg 1.x
 // {app_root}/config/plugin.js
 exports.handlebars = {
   enable: true,
-  package: 'egg-view-handlebars',
+  package: 'egg-view-handlebars2',
 };
 ```
 
