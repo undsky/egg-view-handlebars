@@ -2,7 +2,7 @@
  * @Author: 姜彦汐
  * @Date: 2020-11-27 09:36:21
  * @LastEditors: 姜彦汐
- * @LastEditTime: 2021-12-12 12:43:59
+ * @LastEditTime: 2022-04-13 20:54:23
  * @Description: 
  * @Site: https://www.undsky.com
  */
@@ -44,6 +44,19 @@ handlebars.registerHelper("link", function (expression, options) {
 
 handlebars.registerHelper("script", function (expression, options) {
   return `<script src="${_getUrl(expression, options)}"></script>`
+});
+
+handlebars.registerHelper("math", function (lvalue, operator, rvalue, options) {
+  lvalue = parseFloat(lvalue);
+  rvalue = parseFloat(rvalue);
+
+  return {
+    "+": lvalue + rvalue,
+    "-": lvalue - rvalue,
+    "*": lvalue * rvalue,
+    "/": lvalue / rvalue,
+    "%": lvalue % rvalue
+  } [operator];
 });
 
 module.exports = app => {
